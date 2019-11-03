@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Tim Harvey" />
+    <title>Bike King Borders | Home</title>
+    <!--CSS style sheet-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--this is the standard navigation for desktops and tablets-->
+      <div id="standard-nav" class="container">
+        <img src="img/logo.png" id="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropdown-link" href="store_main.html">Store</a>
+                <div class="dropdown-content">
+                  <a href="on_road.html">On-road</a>
+                  <a href="off_road.html">Off-Road</a>
+                  <a href="city.html">City / Hybrid</a>
+                  <a href="accessories.html">Accessories</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="servicing.html">Servicing</a></li>
+            <li><a href="hire.html">Bike Hire</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a id="register" href="#register">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--this is the burger nav for mobiles-->
+      <div id="mobile-nav">
+        <img src="img/icons/menu.svg" onclick="toggleMenuState()" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store_main.html">Store</a></li>
+          <li><a href="servicing.html">Servicing</a></li>
+          <li><a href="hire.html">Bike Hire</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a id="register" href="#register">Register</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="register">
+      <h1>Register</h1>
+      <div class="container">
+        <article>
+          <p>
+            Sign up for our newsletter to receive all the latest news on
+            upcoming events, new products and special offers.
+          </p>
+          <div class="form-container">
+            <form>
+              <label for="firstName">First name</label>
+              <input name="firstName" type="text" />
+              <label for="lastName">Last name</label>
+              <input name="lastName" type="text" />
+              <label for="email">E-mail</label>
+              <input name="email" type="text" />
+              <p>Which notifications would you like to receive?</p>
+              <div class="checkboxes">
+                <div class="checkbox-wrapper">
+                  <label for="productAlerts">Product alerts</label>
+                  <input
+                    type="checkbox"
+                    name="productAlerts"
+                    value="productAlerts"
+                  />
+                </div>
+                <div class="checkbox-wrapper">
+                  <label for="events">Upcoming events</label>
+                  <input type="checkbox" name="events" value="events" />
+                </div>
+                <div class="checkbox-wrapper">
+                  <label for="specialOffers">Special offers</label>
+                  <input
+                    type="checkbox"
+                    name="specialOffers"
+                    value="specialOffers"
+                  />
+                </div>
+              </div>
+              <input id="submit" type="submit" />
+            </form>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy 2019 Bike King Borders. All Rights Reserved.</p>
+        <div class="media-links">
+          <a href="#"
+            ><img src="img/icons/facebook.svg" alt="Facebook link"
+          /></a>
+          <a href="#"><img src="img/icons/youtube.svg" alt="Facebook link"/></a>
+          <a href="#"
+            ><img src="img/icons/instagram.svg" alt="Facebook link"
+          /></a>
+          <a href="#"
+            ><img src="img/icons/tripadvisor.svg" alt="Facebook link"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

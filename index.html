@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Tim Harvey" />
+    <title>Bike King Borders | Home</title>
+    <!--CSS style sheet-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--this is the standard navigation for desktops and tablets-->
+      <div id="standard-nav" class="container">
+        <img src="img/logo.png" id="logo" />
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropdown-link" href="store_main.html">Store</a>
+                <div class="dropdown-content">
+                  <a href="on_road.html">On-road</a>
+                  <a href="off_road.html">Off-Road</a>
+                  <a href="city.html">City / Hybrid</a>
+                  <a href="accessories.html">Accessories</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="servicing.html">Servicing</a></li>
+            <li><a href="hire.html">Bike Hire</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a id="register" href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--this is the burger nav for mobiles-->
+      <div id="mobile-nav">
+        <img src="img/icons/menu.svg" onclick="toggleMenuState()" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="store_main.html">Store</a></li>
+          <li><a href="servicing.html">Servicing</a></li>
+          <li><a href="hire.html">Bike Hire</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a id="register" href="register.html">Register</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="home">
+      <div class="container">
+        <img id="mobile-logo" src="img/logo.png" />
+        <a href="store_main.html">Visit our store</a>
+        <a href="#contact">Learn more</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact</h1>
+      <div class="container">
+        <article id="text-article">
+          <p>
+            If you would like to get in touch, why not drop into our store where
+            you can chat to one of our experienced sales advisors.
+          </p>
+          <div class="address">
+            <p>
+              <em>You can find us at:</em><br />
+              123 Sesame Street<br />
+              The Borders<br />
+              Scotland<br />
+              AB01 ABC<br />
+              <br />
+              Phone: 01234 567 890
+            </p>
+          </div>
+          <div id="googleMap"></div>
+        </article>
+        <article id="form-article">
+          <p>
+            Send us a message using the form below and we'll get back to you
+            within 24 hours.
+          </p>
+          <div class="form-container">
+            <form>
+              <label for="firstName">First name</label>
+              <input name="firstName" type="text" />
+              <label for="lastName">Last name</label>
+              <input name="lastName" type="text" />
+              <label for="email">E-mail</label>
+              <input name="email" type="text" />
+              <label>Message</label>
+              <textarea cols="30" rows="5"></textarea>
+              <input id="submit" type="submit" />
+            </form>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy 2019 Bike King Borders. All Rights Reserved.</p>
+        <div class="media-links">
+          <a href="#"
+            ><img src="img/icons/facebook.svg" alt="Facebook link"
+          /></a>
+          <a href="#"><img src="img/icons/youtube.svg" alt="Facebook link"/></a>
+          <a href="#"
+            ><img src="img/icons/instagram.svg" alt="Facebook link"
+          /></a>
+          <a href="#"
+            ><img src="img/icons/tripadvisor.svg" alt="Facebook link"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN5kIqHmEZhtOcLTu-2N_Zah2y4n5DbyM&callback=myMap"></script>
+  </body>
+</html>

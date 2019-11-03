@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Tim Harvey" />
+    <title>Bike King Borders | On-Road</title>
+    <!--CSS style sheet-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--this is the standard navigation for desktops and tablets-->
+      <div id="standard-nav" class="container">
+        <img src="img/logo.png" id="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropdown-link" href="store_main.html">Store</a>
+                <div class="dropdown-content">
+                  <a href="#store-detail">On-road</a>
+                  <a href="off_road.html">Off-Road</a>
+                  <a href="city.html">City / Hybrid</a>
+                  <a href="accessories.html">Accessories</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="servicing.html">Servicing</a></li>
+            <li><a href="hire.html">Bike Hire</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a id="register" href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--this is the burger nav for mobiles-->
+      <div id="mobile-nav">
+        <img src="img/icons/menu.svg" onclick="toggleMenuState()" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store_main.html">Store</a></li>
+          <li><a href="servicing.html">Servicing</a></li>
+          <li><a href="hire.html">Bike Hire</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a id="register" href="register.html">Register</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="store-detail">
+      <h1>Road Bikes</h1>
+      <div class="container">
+        <article class="product-listing flex-reverse">
+          <table>
+            <tr>
+              <th>Pinnacle Laterite 0</th>
+            </tr>
+            <tr>
+              <td>Frame</td>
+              <td>:</td>
+              <td>6061-T6 heat treated aluminium</td>
+            </tr>
+            <tr>
+              <td>Fork</td>
+              <td>:</td>
+              <td>Carbon blade, 1-1/8" alloy steerer</td>
+            </tr>
+            <tr>
+              <td>Number of gears</td>
+              <td>:</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <td>Rims</td>
+              <td>:</td>
+              <td>Alloy double wall, 700c</td>
+            </tr>
+            <tr>
+              <td>Tyres</td>
+              <td>:</td>
+              <td>Deli 700x25c</td>
+            </tr>
+            <tr>
+              <td class="price">Price</td>
+              <td class="price">:</td>
+              <td class="price">£360</td>
+            </tr>
+          </table>
+
+          <p class="mobile-heading">Pinnacle Laterite 0</p>
+          <img src="img/on-road/pinnacle_laterite_0.jpeg" alt="" />
+        </article>
+        <hr />
+        <article class="product-listing">
+          <img src="img/on-road/trek_madone_sl_6.jpeg" alt="" />
+          <p class="mobile-heading">Trek Madone SL 6</p>
+          <table>
+            <tr>
+              <th>Trek Madone SL 6</th>
+            </tr>
+            <tr>
+              <td>Frame</td>
+              <td>:</td>
+              <td>500 series OCLV carbon</td>
+            </tr>
+            <tr>
+              <td>Fork</td>
+              <td>:</td>
+              <td>Madone KVF full carbon</td>
+            </tr>
+            <tr>
+              <td>Number of gears</td>
+              <td>:</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td>Rims</td>
+              <td>:</td>
+              <td>Bontrager Aeolus Comp tubeless ready</td>
+            </tr>
+            <tr>
+              <td>Tyres</td>
+              <td>:</td>
+              <td>Bontrager R2, 700x25c</td>
+            </tr>
+            <tr>
+              <td class="price">Price</td>
+              <td class="price">:</td>
+              <td class="price">£2,880</td>
+            </tr>
+          </table>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy 2019 Bike King Borders. All Rights Reserved.</p>
+        <div class="media-links">
+          <a href="#"
+            ><img src="img/icons/facebook.svg" alt="Facebook link"
+          /></a>
+          <a href="#"><img src="img/icons/youtube.svg" alt="Facebook link"/></a>
+          <a href="#"
+            ><img src="img/icons/instagram.svg" alt="Facebook link"
+          /></a>
+          <a href="#"
+            ><img src="img/icons/tripadvisor.svg" alt="Facebook link"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

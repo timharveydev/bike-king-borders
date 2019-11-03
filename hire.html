@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Tim Harvey" />
+    <title>Bike King Borders | Home</title>
+    <!--CSS style sheet-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--this is the standard navigation for desktops and tablets-->
+      <div id="standard-nav" class="container">
+        <img src="img/logo.png" id="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropdown-link" href="store_main.html">Store</a>
+                <div class="dropdown-content">
+                  <a href="on_road.html">On-road</a>
+                  <a href="off_road.html">Off-Road</a>
+                  <a href="city.html">City / Hybrid</a>
+                  <a href="accessories.html">Accessories</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="servicing.html">Servicing</a></li>
+            <li><a href="#hire">Bike Hire</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a id="register" href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--this is the burger nav for mobiles-->
+      <div id="mobile-nav">
+        <img src="img/icons/menu.svg" onclick="toggleMenuState()" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store_main.html">Store</a></li>
+          <li><a href="servicing.html">Servicing</a></li>
+          <li><a href="#hire">Bike Hire</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a id="register" href="register.html">Register</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="hire">
+      <h1>Bike Hire</h1>
+      <div class="container">
+        <article>
+          <div class="info-wrapper">
+            <p>
+              Perhaps you're visiting the borders and want to see more of the
+              beautiful landscape by bike? Or maybe you are an adrenaline junkie
+              looking to test out the latest tech?
+            </p>
+            <p>
+              We offer a range of bikes to suit every individual, and a
+              selection of price plans to suit every budget.
+            </p>
+          </div>
+          <div class="rates-wrapper">
+            <table>
+              <tr>
+                <th>Our rates<br />(3-hr/5-hr/day):</th>
+              </tr>
+              <tr>
+                <td>Children's bike</td>
+                <td>:</td>
+                <td>£10/£12/£15</td>
+              </tr>
+              <tr>
+                <td>Basic hard-tail mountain bike</td>
+                <td>:</td>
+                <td>£15/£20/£25</td>
+              </tr>
+              <tr>
+                <td>Pro hard-tail mountain bike</td>
+                <td>:</td>
+                <td>£25/£35/£50</td>
+              </tr>
+              <tr>
+                <td>Pro full-suspension mountain bike</td>
+                <td>:</td>
+                <td>£35/£45/£70</td>
+              </tr>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy 2019 Bike King Borders. All Rights Reserved.</p>
+        <div class="media-links">
+          <a href="#"
+            ><img src="img/icons/facebook.svg" alt="Facebook link"
+          /></a>
+          <a href="#"><img src="img/icons/youtube.svg" alt="Facebook link"/></a>
+          <a href="#"
+            ><img src="img/icons/instagram.svg" alt="Facebook link"
+          /></a>
+          <a href="#"
+            ><img src="img/icons/tripadvisor.svg" alt="Facebook link"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

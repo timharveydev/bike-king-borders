@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Tim Harvey" />
+    <title>Bike King Borders | Store</title>
+    <!--CSS style sheet-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--this is the standard navigation for desktops and tablets-->
+      <div id="standard-nav" class="container">
+        <img src="img/logo.png" id="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropdown-link" href="#store-main">Store</a>
+                <div class="dropdown-content">
+                  <a href="on_road.html">On-road</a>
+                  <a href="off_road.html">Off-Road</a>
+                  <a href="city.html">City / Hybrid</a>
+                  <a href="accessories.html">Accessories</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="servicing.html">Servicing</a></li>
+            <li><a href="hire.html">Bike Hire</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a id="register" href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--this is the burger nav for mobiles-->
+      <div id="mobile-nav">
+        <img src="img/icons/menu.svg" onclick="toggleMenuState()" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#store-main">Store</a></li>
+          <li><a href="servicing.html">Servicing</a></li>
+          <li><a href="hire.html">Bike Hire</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a id="register" href="register.html">Register</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="store-main">
+      <div class="text-container">
+        <h1>Store</h1>
+        <p>
+          We stock a wide range of bikes and cycling accessories to suit all
+          skill levels and disciplines. Whether you are commuting, tearing up
+          some singletrack or setting out on a cross-country adventure, we are
+          confident that we have what you are looking for.
+        </p>
+      </div>
+      <div class="container">
+        <a href="on_road.html"
+          ><img
+            src="img/on-road/cover.jpeg"
+            alt="A cyclist on a road bike in the sun"
+          />
+          <div class="overlay"><p>On-Road</p></div></a
+        >
+        <a href="off_road.html"
+          ><img
+            src="img/off-road/cover.jpeg"
+            alt="A cyclist on a mountain bike in the sun"
+          />
+          <div class="overlay"><p>Off-Road</p></div></a
+        >
+        <a href="city.html"
+          ><img
+            src="img/city/cover.jpeg"
+            alt="A yellow city bike near green trees"
+          />
+          <div class="overlay"><p>City & Hybrid</p></div></a
+        >
+        <a href="accessories.html"
+          ><img
+            src="img/accessories/cover.jpeg"
+            alt="A selection of bicycle helmets"
+          />
+          <div class="overlay"><p>Accessories</p></div></a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy 2019 Bike King Borders. All Rights Reserved.</p>
+        <div class="media-links">
+          <a href="#"
+            ><img src="img/icons/facebook.svg" alt="Facebook link"
+          /></a>
+          <a href="#"><img src="img/icons/youtube.svg" alt="Facebook link"/></a>
+          <a href="#"
+            ><img src="img/icons/instagram.svg" alt="Facebook link"
+          /></a>
+          <a href="#"
+            ><img src="img/icons/tripadvisor.svg" alt="Facebook link"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

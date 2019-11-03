@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Tim Harvey" />
+    <title>Bike King Borders | Off-Road</title>
+    <!--CSS style sheet-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--this is the standard navigation for desktops and tablets-->
+      <div id="standard-nav" class="container">
+        <img src="img/logo.png" id="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropdown-link" href="store_main.html">Store</a>
+                <div class="dropdown-content">
+                  <a href="on_road.html">On-road</a>
+                  <a href="#store-detail">Off-Road</a>
+                  <a href="city.html">City / Hybrid</a>
+                  <a href="accessories.html">Accessories</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="servicing.html">Servicing</a></li>
+            <li><a href="hire.html">Bike Hire</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a id="register" href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--this is the burger nav for mobiles-->
+      <div id="mobile-nav">
+        <img src="img/icons/menu.svg" onclick="toggleMenuState()" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store_main.html">Store</a></li>
+          <li><a href="servicing.html">Servicing</a></li>
+          <li><a href="hire.html">Bike Hire</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a id="register" href="register.html">Register</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="store-detail">
+      <h1>Mountain Bikes</h1>
+      <div class="container">
+        <article class="product-listing flex-reverse">
+          <table>
+            <tr>
+              <th>Trek Marlin 5</th>
+            </tr>
+            <tr>
+              <td>Frame</td>
+              <td>:</td>
+              <td>Alpha Silver aluminium</td>
+            </tr>
+            <tr>
+              <td>Fork</td>
+              <td>:</td>
+              <td>SR Suntour XCE 28</td>
+            </tr>
+            <tr>
+              <td>Number of gears</td>
+              <td>:</td>
+              <td>21</td>
+            </tr>
+            <tr>
+              <td>Rims</td>
+              <td>:</td>
+              <td>Bontrager Connection 32-hole</td>
+            </tr>
+            <tr>
+              <td>Tyres</td>
+              <td>:</td>
+              <td>Bontrager XR2, 29x2.20"</td>
+            </tr>
+            <tr>
+              <td class="price">Price</td>
+              <td class="price">:</td>
+              <td class="price">£395</td>
+            </tr>
+          </table>
+
+          <p class="mobile-heading">Trek Marlin 5</p>
+          <img src="img/off-road/trek_marlin_5.jpeg" alt="" />
+        </article>
+        <hr />
+        <article class="product-listing">
+          <img src="img/off-road/norco_fluid_fs_4.jpeg" alt="" />
+          <p class="mobile-heading">Norco Fluid FS 4</p>
+          <table>
+            <tr>
+              <th>Norco Fluid FS 4</th>
+            </tr>
+            <tr>
+              <td>Frame</td>
+              <td>:</td>
+              <td>Fluid FS 6061 alloy</td>
+            </tr>
+            <tr>
+              <td>Fork</td>
+              <td>:</td>
+              <td>SR Suntour XCR-34</td>
+            </tr>
+            <tr>
+              <td>Number of gears</td>
+              <td>:</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Rims</td>
+              <td>:</td>
+              <td>WTB STP i29 TCS</td>
+            </tr>
+            <tr>
+              <td>Tyres</td>
+              <td>:</td>
+              <td>WTB Trail Boss G2, 2.40"</td>
+            </tr>
+            <tr>
+              <td class="price">Price</td>
+              <td class="price">:</td>
+              <td class="price">£1,125</td>
+            </tr>
+          </table>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy 2019 Bike King Borders. All Rights Reserved.</p>
+        <div class="media-links">
+          <a href="#"
+            ><img src="img/icons/facebook.svg" alt="Facebook link"
+          /></a>
+          <a href="#"><img src="img/icons/youtube.svg" alt="Facebook link"/></a>
+          <a href="#"
+            ><img src="img/icons/instagram.svg" alt="Facebook link"
+          /></a>
+          <a href="#"
+            ><img src="img/icons/tripadvisor.svg" alt="Facebook link"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
