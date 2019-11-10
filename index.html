@@ -19,7 +19,7 @@
     <header>
       <!--this is the standard navigation for desktops and tablets-->
       <div id="standard-nav" class="container">
-        <img src="img/logo.png" id="logo" />
+        <img src="img/logo.png" id="logo" alt="Bike King Borders logo" />
         <nav>
           <ul>
             <li><a href="#home">Home</a></li>
@@ -37,28 +37,36 @@
             <li><a href="servicing.html">Servicing</a></li>
             <li><a href="hire.html">Bike Hire</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a id="register" href="register.html">Register</a></li>
+            <li><a class="register" href="register.html">Register</a></li>
           </ul>
         </nav>
       </div>
 
       <!--this is the burger nav for mobiles-->
       <div id="mobile-nav">
-        <img src="img/icons/menu.svg" onclick="toggleMenuState()" />
+        <img
+          src="img/icons/menu.svg"
+          onclick="toggleMenuState()"
+          alt="Burger menu for mobile devices"
+        />
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="store_main.html">Store</a></li>
           <li><a href="servicing.html">Servicing</a></li>
           <li><a href="hire.html">Bike Hire</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a id="register" href="register.html">Register</a></li>
+          <li><a class="register" href="register.html">Register</a></li>
         </ul>
       </div>
     </header>
 
     <section id="home">
       <div class="container">
-        <img id="mobile-logo" src="img/logo.png" />
+        <img
+          id="mobile-logo"
+          src="img/logo.png"
+          alt="Logo for mobile devices"
+        />
         <a href="store_main.html">Visit our store</a>
         <a href="#contact">Learn more</a>
       </div>
@@ -93,11 +101,11 @@
           <div class="form-container">
             <form>
               <label for="firstName">First name</label>
-              <input name="firstName" type="text" />
+              <input id="firstName" type="text" />
               <label for="lastName">Last name</label>
-              <input name="lastName" type="text" />
+              <input id="lastName" type="text" />
               <label for="email">E-mail</label>
-              <input name="email" type="text" />
+              <input id="email" type="text" />
               <label>Message</label>
               <textarea cols="30" rows="5"></textarea>
               <input id="submit" type="submit" />
@@ -109,7 +117,7 @@
 
     <footer>
       <div class="container">
-        <p>&copy 2019 Bike King Borders. All Rights Reserved.</p>
+        <p>&copy; 2019 Bike King Borders. All Rights Reserved.</p>
         <div class="media-links">
           <a href="#"
             ><img src="img/icons/facebook.svg" alt="Facebook link"
