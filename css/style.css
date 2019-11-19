@@ -72,7 +72,7 @@ header nav a:hover {
   color: #c4a000;
 }
 
-header nav a.register {
+header nav a#register {
   background-color: #c4a000;
   border-radius: 35px;
 }
